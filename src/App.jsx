@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import styles from "./style";
-import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from './components';
+import { Navbar, Hero, Stats, Business, Billing, Testimonials, CTA, Footer } from './components';
 
 const App = () => {
   const [visible, setVisible] = useState(true);
@@ -34,9 +34,7 @@ const App = () => {
           <Stats />
           <Business />
           <Billing />
-          <CardDeal />
           <Testimonials />
-          <Clients />
           <CTA />
           <Footer />
         </div>

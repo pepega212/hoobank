@@ -60,6 +60,18 @@
   font-weight: bold;
 }
 
+.btn:hover {
+  background: linear-gradient(
+    157.81deg,
+    #e6f4f8 -43.27%,
+    #cfecf3 -21.24%,
+    #addfee 12.19%,
+    #94d5e9 29.82%,
+    #7fcee2 51.94%,
+    #69b9d8 90.29%
+  );
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
